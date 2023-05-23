@@ -6,11 +6,11 @@ function ondeNasceu(paisDeNascimento) {
     return (paisDeNascimento)
     }else if (paisDeNascimento.toLowerCase() === "argentina"){
     return (paisDeNascimento)
-    }else if (paisDeNascimento.toLocaleLowerCase() === "uruguaia"){
+    }else if (paisDeNascimento.toLowerCase() === "uruguaia"){
     return (paisDeNascimento)
-    }else if (paisDeNascimento.toLocaleLowerCase() === "chilena"){
+    }else if (paisDeNascimento.toLowerCase() === "chilena"){
     return (paisDeNascimento)
-    }else if (paisDeNascimento.toLocaleLowerCase() === "colombiana"){
+    }else if (paisDeNascimento.toLowerCase() === "colombiana"){
     return(paisDeNascimento)
     }else {
     return ("Nacionalidade não encontrada")}
